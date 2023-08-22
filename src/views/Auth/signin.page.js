@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../../components/Page";
-import styles from "../../App.css";
+import "../../App.css";
 import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 import GoogleSigninImage from "../../img/Google Sign Ingoogle.svg";
@@ -188,26 +188,20 @@ const SignInPage = () => {
 
   return (
     <Page title="signin">
-      <div style={customStyles.mainBlock} className={styles.loginMainBlock}>
-        <div className={styles.signinLeftSide} style={customStyles.leftSide}>
-          <p className={styles.signinTitleLeftSide} style={customStyles.title}>
+      <div style={customStyles.mainBlock} className="loginMainBlock">
+        <div className="signinLeftSide" style={customStyles.leftSide}>
+          <p className="signinTitleLeftSide" style={customStyles.title}>
             Board.
           </p>
         </div>
-        <div style={customStyles.rightSide} className={styles.loginRightSide}>
-          <p className={styles.signinTitle} style={customStyles.signIn}>
+        <div style={customStyles.rightSide} className="loginRightSide">
+          <p className="signinTitle" style={customStyles.signIn}>
             Sign In
           </p>
-          <p
-            className={styles.signinAccount}
-            style={customStyles.signInAccount}
-          >
+          <p className="signinAccount" style={customStyles.signInAccount}>
             Sign in to your account
           </p>
-          <div
-            className={styles.signinLoginForm}
-            style={customStyles.loginForm}
-          >
+          <div className="signinLoginForm" style={customStyles.loginForm}>
             <img
               src={GoogleSigninImage}
               alt="Sign in with Google"
@@ -216,57 +210,42 @@ const SignInPage = () => {
             />
             <img src={AppleSigninImage} alt="Sign in with Apple" />
           </div>
-          <div
-            className={styles.signinLoginCard}
-            style={customStyles.loginCard}
-          >
-            <p className={styles.email} style={customStyles.email}>
+          <div className="signinLoginCard" style={customStyles.loginCard}>
+            <p className="email" style={customStyles.email}>
               Email&nbsp;address
             </p>
 
-            <div className={styles.inputEmail} style={customStyles.inputEmail}>
-              <p
-                className={styles.inputEmailText}
-                style={customStyles.inputEmailText}
-              >
+            <div className="inputEmail" style={customStyles.inputEmail}>
+              <p className="inputEmailText" style={customStyles.inputEmailText}>
                 johndoe@gmail.com
               </p>
             </div>
-            <p className={styles.password} style={customStyles.password}>
+            <p className="password" style={customStyles.password}>
               Password
             </p>
 
-            <div
-              className={styles.passwordInput}
-              style={customStyles.passwordInput}
-            >
+            <div className="passwordInput" style={customStyles.passwordInput}>
               <p
-                className={styles.passwordInputText}
+                className="passwordInputText"
                 style={customStyles.passwordInputText}
               >
                 ••••••••
               </p>
             </div>
-            <div
-              className={styles.forgotPassword}
-              style={customStyles.forgetPassword}
-            >
+            <div className="forgotPassword" style={customStyles.forgetPassword}>
               <a>Forgot password?</a>
             </div>
 
-            <div
-              className={styles.buttonSignIn}
-              style={customStyles.buttonSignIn}
-            >
+            <div className="buttonSignIn" style={customStyles.buttonSignIn}>
               <p
-                className={styles.buttonSignInName}
+                className="buttonSignInName"
                 style={customStyles.buttonSignInName}
               >
                 Sign In
               </p>
             </div>
           </div>
-          <p className={styles.signinRegister} style={customStyles.register}>
+          <p className="signinRegister" style={customStyles.register}>
             Don’t have an account?{" "}
             <span style={{ color: "#346BD4" }}>Register here</span>
           </p>

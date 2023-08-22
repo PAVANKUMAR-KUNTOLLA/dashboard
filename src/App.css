@@ -153,7 +153,6 @@
 .loginMainBlock {
   @media screen and (max-width: 767px){
     display: block !important;
-    flex-direction: column !important;
     width:1024px !important;
     height:1024px !important;
   }
