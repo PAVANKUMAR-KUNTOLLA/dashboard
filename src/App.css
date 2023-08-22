@@ -1,0 +1,288 @@
+.appLayout{
+  @media screen and (max-width: 767px) {
+    width: auto !important;
+    margin: 10px !important;
+  }
+}
+.mainBlock {
+  @media screen and (max-width: 767px) {
+    flex-direction: row; /* Change to row layout for mobile screens */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+  }
+}
+
+.blockLeftCard {
+  position: absolute;
+  width: 221.05px;
+  height: 120px;
+  top: 129px;
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    left:0 !important;
+    margin-left: -290px;
+    margin-bottom: 24px;
+  }
+}
+
+.blockRightCard {
+  position: absolute;
+  width: 221.05px;
+  height: 120px;
+  top: 129px;
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    left:0 !important;
+    margin-top:-143px;
+    margin-bottom: 24px;
+  }
+}
+
+.mainNavbar {
+  @media screen and (max-width: 767px) {
+    width: 767px !important;
+    margin: 0 !important
+  }
+}
+.navbarButton{
+  border:transparent ;
+  background-color: "#F5F5F5";
+  margin-right:20px;
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}
+
+
+.appBar {
+  @media screen and (max-width: 767px) {
+    max-width: 767px;
+    margin-left: -360px;
+    position: relative !important;
+    margin-right: 20px;
+
+  }
+}
+
+.titleAppBar{
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    margin-right: auto;
+
+  }
+}
+
+.searchAppbar {
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    left: 0  !important;
+    /* max-width: 200px !important; */
+    /* background-size: 200px 30px !important; */
+    margin-right: 20px !important;
+  }
+
+}
+
+.searchInputNameAppbar {
+  @media screen and (max-width: 767px) {
+    left: 0 !important;
+    padding-left: 10px;
+
+  }
+}
+
+.profileAppbar{
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    left: 0 !important;
+    margin-right: 20px;
+  }
+
+}
+.notificationAppbar{
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    left: 0 !important;
+    margin-right: 20px;
+  }
+}
+
+.lineChart {
+  @media screen and (max-width: 767px) {
+    position: relative !important;
+    top: 440px !important;
+    left: 0 !important;
+    max-width: 767px !important;
+  }
+}
+
+.pieChart {
+  @media screen and (max-width: 767px){
+    position: relative !important;
+    top: 470px !important;
+    left: 0 !important;
+    max-width: 767px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+}
+
+.schedulerBlock{
+  @media screen and (max-width: 767px){
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    max-width: 767px !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}
+.calendar {
+  @media screen and (max-width: 767px){
+    position: relative !important;
+    top: 490px !important;
+    left: 0 !important;
+    max-width: 767px !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.loginMainBlock {
+  @media screen and (max-width: 767px){
+    display: block !important;
+    width:1024px !important;
+    height:1024px !important;
+  }
+}
+
+.signinLeftSide {
+  @media screen and (max-width: 767px){
+    width: auto !important;
+    height: 512px !important;
+  }
+}
+.signinTitleLeftSide {
+  @media screen and (max-width: 767px){
+    margin-top:0 !important;
+    margin-left:350px !important;
+    padding-top:240px;
+  }
+}
+.loginRightSide {
+  @media screen and (max-width: 767px){
+    width: auto !important;
+    height: 512px !important;
+    padding-left: 70px;
+  }
+  }
+
+  .signinTitle {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:140px;
+    }
+  }
+
+  .signinAccount {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:10px;
+    }
+  }
+
+  .signinLoginForm {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:20px;
+    }
+  }
+
+  .signinLoginCard {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      margin-top:30px;
+    }
+  }
+
+  .email {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:20px;
+    }
+  }
+
+  .inputEmail {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      /* padding-top:20px; */
+    }
+  }
+
+  .inputEmailText {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:7px;
+    }
+  }
+
+  .password {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:20px;
+    }
+  }
+  .passwordInput {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      /* padding-top:20px; */
+    }
+  }
+  .passwordInputText {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:7px;
+    }
+  }
+  .forgotPassword {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:20px;
+    }
+  }
+
+  .buttonSignIn {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      margin-top:20px !important;
+    }
+  }
+
+  .buttonSignInName {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+    }
+  }
+
+  .signinRegister {
+    @media screen and (max-width: 767px){
+      position: relative !important;
+      top:0 !important;
+      padding-top:20px;
+    }
+  }
