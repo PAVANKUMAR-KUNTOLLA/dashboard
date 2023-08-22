@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Page from "../../components/Page";
-import "../../App.css";
+import styles from "../../App.css";
 
 import PieChart from "../../components/charts/PieChart";
 import MainCard from "../../components/MainCard";
@@ -110,7 +110,7 @@ const HomePage = () => {
     <Page title="home">
       <div>
         <div
-          className="appBar"
+          className={styles.appBar}
           style={{
             position: "absolute",
             left: "380px",
@@ -122,7 +122,7 @@ const HomePage = () => {
           }}
         >
           <button
-            className="navbarButton"
+            className={styles.navbarButton}
             onClick={() => dispatch(setNavOpen(true))}
           >
             <svg
@@ -144,20 +144,20 @@ const HomePage = () => {
             </svg>
           </button>
 
-          <p style={customStyles.title} className="titleAppBar">
+          <p style={customStyles.title} className={styles.titleAppBar}>
             Dashboard
           </p>
-          <div style={customStyles.searchInput} className="searchAppbar">
+          <div style={customStyles.searchInput} className={styles.searchAppbar}>
             <p
               style={customStyles.searchInputName}
-              className="searchInputNameAppbar"
+              className={styles.searchInputNameAppbar}
             >
               Search...
             </p>
             <img src={Search} style={customStyles.searchInputlogo} />
           </div>
           <img
-            className="notificationAppbar"
+            className={styles.notificationAppbar}
             src={Notification}
             alt="notification"
             style={{
@@ -168,7 +168,7 @@ const HomePage = () => {
             }}
           />
           <img
-            className="profileAppbar"
+            className={styles.profileAppbar}
             src={Profile}
             alt="profile"
             style={{
@@ -189,7 +189,7 @@ const HomePage = () => {
         </div>
         {activity && (
           <div
-            className="lineChart"
+            className={styles.lineChart}
             style={{
               position: "absolute",
               top: "289px",
@@ -211,7 +211,7 @@ const HomePage = () => {
         )}
         {products && (
           <div
-            className="pieChart"
+            className={styles.pieChart}
             style={{
               height: "256px",
               width: "480px",
@@ -249,7 +249,7 @@ const HomePage = () => {
           </div>
         )}
         <div
-          className="calendar"
+          className={styles.calendar}
           style={{
             position: "absolute",
             left: "900px",
