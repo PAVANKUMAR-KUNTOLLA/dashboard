@@ -1,6 +1,5 @@
 import React from "react";
 import Page from "../../components/Page";
-import "../../App.css";
 import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 import GoogleSigninImage from "../../img/Google Sign Ingoogle.svg";

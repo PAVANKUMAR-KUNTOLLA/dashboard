@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { setNavOpen, setProfile } from "../../redux/app/appSlice";
 import Navbar from "../MinimalLayout";
-import styles from "../../App.css";
 
 const AppLayout = () => {
   const profile = useSelector((state) => state.app.profile);
@@ -40,7 +39,7 @@ const AppLayout = () => {
 
   return (
     <div
-      className={styles.appLayout}
+      className="appLayout"
       style={{
         backgroundColor: "#F5F5F5",
         width: "90%",

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Page from "../../components/Page";
-import "../../App.css";
 
 import PieChart from "../../components/charts/PieChart";
 import MainCard from "../../components/MainCard";

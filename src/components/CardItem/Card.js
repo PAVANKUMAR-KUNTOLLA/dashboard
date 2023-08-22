@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 
 import Revenues from "../../img/Total Revenues.svg";
 import Transactions from "../../img/Total Transactions.svg";

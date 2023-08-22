@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../App.css";
 import NextArrow from "../../img/NextArrow.svg";
 
 const montserrat = {
