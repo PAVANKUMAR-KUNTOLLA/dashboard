@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "../../App.css";
+import "../../App.css";
 import NextArrow from "../../img/NextArrow.svg";
 
 const montserrat = {
@@ -54,7 +54,7 @@ const customStyles = {
 
 const SchedulerItem = () => {
   return (
-    <div className={styles.schedulerBlock} style={customStyles.mainBlock}>
+    <div className="schedulerBlock" style={customStyles.mainBlock}>
       <p style={customStyles.title}>Today’s schedule</p>
       <p style={customStyles.next}>
         See All

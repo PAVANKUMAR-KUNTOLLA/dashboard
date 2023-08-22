@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../App.css";
+import "../../App.css";
 
 import { useDispatch } from "react-redux";
 import { setNavOpen } from "../../redux/app/appSlice";
@@ -71,10 +71,10 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className={styles.mainNavbar}>
+    <div className="mainNavbar">
       <div style={customStyles.mainBlock}>
         <button
-          className={styles.navbarButton}
+          className="navbarButton"
           style={{
             ...customStyles.bottomText,
             top: 20,

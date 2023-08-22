@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../App.css";
+import "../../App.css";
 
 import Revenues from "../../img/Total Revenues.svg";
 import Transactions from "../../img/Total Transactions.svg";
@@ -36,13 +36,11 @@ const openSans = {
 
 const CardItems = () => {
   return (
-    <div className={styles.mainBlock}>
+    <div className="mainBlock">
       {options.map((option, id) => (
         <div
           key={id}
-          className={
-            id === 1 || id === 3 ? styles.blockRightCard : styles.blockLeftCard
-          }
+          className={id === 1 || id === 3 ? "blockRightCard" : "blockLeftCard"}
           style={{
             left: left_pixels[id],
             backgroundColor: background_colors[id],
